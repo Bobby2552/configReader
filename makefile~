@@ -1,7 +1,0 @@
-#include <stdio.h>
-
-calc: calc.c
-	gcc -o calc calc.c
-
-clean:
-	rm -f calc
